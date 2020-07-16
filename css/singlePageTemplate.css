@@ -16,7 +16,7 @@ body {
 	margin-left: auto;
 	margin-right: auto;
 	height: 1000px;
-	background-color: #FFFFFF;
+/*	background-color: #FFFFFF;*/
 }
 /* Navigation */
 header {
@@ -63,14 +63,17 @@ ul li:hover a {
 	color: #2C9AB7;
 }
 .hero_header {
-	
+/*
+	width: 100%;
 	text-align: center;
 	margin-top: 0px;
 	margin-right: 0px;
 	margin-bottom: 0px;
 	margin-left: 0px;
+*/
 	letter-spacing: 4px;
 	text-shadow: 5px 5px 10px black;
+	font-size: 5rem;
 }
 h1 {
 	font-size: 5rem;
@@ -96,9 +99,10 @@ h1 {
 	text-align: center;
 	color: #FFFFFF;
 	margin-top: 4px;
-	font-weight: lighter;
+	font-weight: normal;
 	text-transform: uppercase;
 	letter-spacing: 1px;
+	text-size: 2rem;
 }
 .tagline a {
 	text-decoration: none;
@@ -176,12 +180,13 @@ h1 {
 	background-repeat: no-repeat;
 }
 .parallax {
-	color: #3C3C3A;
-	text-align: right;
-	padding-right: 100px;
+	background: transparent;
+	text-align: center;
 	padding-top: 110px;
 	letter-spacing: 2px;
 	margin-top: 0px;
+	min-height: 400px;
+	z-index: 1;
 }
 .parallax_description {
 	color: #3C3C3A;
