@@ -1,30 +1,5 @@
 @charset "UTF-8";
-/* Body */
-body {
-	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
-	background-color: #ffffff;
-	margin-top: 0px;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	margin-left: 0px;
-	font-style: normal;
-	font-weight: 200;
-}
-/* Container */
-.container {
-	width: 90%;
-	margin-left: auto;
-	margin-right: auto;
-	height: 1000px;
-/*	background-color: #FFFFFF;*/
-}
 /* Navigation */
-header {
-	width: 100%;
-	height: 5%;
-	background-color: #0D0F0D;
-	border-bottom: 1px solid #2C9AB7;
-}
 .logo {
 	color: #464645;
 	font-weight: bold;
@@ -34,26 +9,6 @@ header {
 	margin-top: 15px;
 	margin-left: 25px;
 	letter-spacing: 4px;
-}
-nav {
-	float: right;
-	width: 50%;
-	text-align: right;
-	margin-right: 25px;
-}
-header nav ul {
-	list-style: none;
-	float: right;
-}
-nav ul li {
-	float: left;
-	color: #FFFFFF;
-	font-size: 14px;
-	text-align: left;
-	margin-right: 25px;
-	letter-spacing: 2px;
-	font-weight: bold;
-	transition: all 0.3s linear;
 }
 ul li a {
 	color: #FFFFFF;
@@ -73,7 +28,6 @@ ul li:hover a {
 */
 	letter-spacing: 4px;
 	text-shadow: 5px 5px 10px black;
-	font-size: 20px;
 }
 h1 {
 	font-size: 5rem;
@@ -185,8 +139,8 @@ h1 {
 	padding-top: 110px;
 	letter-spacing: 2px;
 	margin-top: 0px;
-	min-height: 400px;
-	z-index: 1;
+	min-height: 80vw;
+	z-index: 100;
 }
 .parallax_description {
 	color: #3C3C3A;
@@ -304,15 +258,7 @@ footer {
 	margin-bottom: 0px;
 	margin-left: 0px;
 }
-.container header nav {
-	margin-top: 0px;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	margin-left: 0px;
-	width: 100%;
-	float: none;
-	display: none;
-}
+
 header nav ul {
 }
 nav ul li {
@@ -396,31 +342,7 @@ nav ul li {
 	margin-left: 0px;
 	color: #043745;
 }
-.container header nav {
-	margin-top: 0px;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	margin-left: 0px;
-	width: 100%;
-	float: none;
-	overflow: auto;
-	display: inline-block;
-	background: black;
-}
-header nav ul {
-	padding: 0px;
-	float: none;
-}
-nav ul li {
-	margin-top: 0px;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	margin-left: 0px;
-	width: 100%;
-	text-align: center;
-	padding-top: 8px;
-	padding-bottom: 8px;
-}
+
 .text_column {
 	width: 100%;
 	text-align: left;
